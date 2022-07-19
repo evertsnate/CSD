@@ -1467,17 +1467,17 @@ input[type="submit"] {
 }
 
 .homepage-bg-1 {
-  background-image: url(Logo-Design.png);
+  background-image: url(/Logo-Design.png);
   height: 600px;
 }
 
 .homepage-bg-2 {
-  background-image: url(CSDHarness-For-Website.png);
+  background-image: url(/CSDHarness-For-Website.png);
   height: 600px;
 }
 
 .homepage-bg-3 {
-  background-image: url(BlackHawkFor-Website.png);
+  background-image: url(/BlackHawkFor-Website.png);
   height: 600px;
 }
 
