@@ -1467,17 +1467,17 @@ input[type="submit"] {
 }
 
 .homepage-bg-1 {
-  background-image: url(/assets/img/updatedimagesforwebsite/_pngtransparentbg/Logo-Design.png);
+  background-image: url(assets/img/updatedimagesforwebsite/_pngtransparentbg/Logo-Design.png);
   height: 600px;
 }
 
 .homepage-bg-2 {
-  background-image: url(/assets/img/updatedimagesforcarousel/CSDHarness-For-Website.png);
+  background-image: url(assets/img/updatedimagesforcarousel/CSDHarness-For-Website.png);
   height: 600px;
 }
 
 .homepage-bg-3 {
-  background-image: url(/assets/img/updatedimagesforcarousel/BlackHawkFor-Website.png);
+  background-image: url(assets/img/updatedimagesforcarousel/BlackHawkFor-Website.png);
   height: 600px;
 }
 
