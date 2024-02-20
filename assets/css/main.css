@@ -17,7 +17,7 @@ body {
   font-size: 1rem;
   letter-spacing: 0.1px;
   line-height: 1.8;
-  color: #051922;
+  color: #26292b;
   overflow-x: hidden;
 }
 
@@ -34,7 +34,7 @@ a {
 }
 
 a:hover {
-  color: #f2bb23;
+  color: #f2e879;
   text-decoration: none;
 }
 
