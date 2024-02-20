@@ -406,8 +406,8 @@ p:last-child {
 
 a.boxed-btn {
   font-family: 'Lato', sans-serif;
-  display: inline-block;
-  background-color: #E88B98;
+  display: none;
+  background-color: #02a40;
   color: #eeedeb;
   padding: 10px 20px;
 }
