@@ -1440,7 +1440,7 @@ html, body {
 
 .hero-btns {
   margin-top: 35px;
-  
+  display:inline-block;
 }
 
 .hero-btns a.bordered-btn {
