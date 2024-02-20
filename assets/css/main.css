@@ -391,13 +391,13 @@ p:last-child {
 }
 
 .gray-bg {
-  background-color: #be2323;
+  background-color: #eeedeb;
 }
 
-/* Our Products */
-.orange-text {
-  color: #123b08;
-/* Our Products */
+/* Latest Products */
+.black-text {
+  color: #29262b;
+/* Latest Products */
 }
 
 .blue-bg {
@@ -405,7 +405,7 @@ p:last-child {
 }
 
 a.boxed-btn {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   display: inline-block;
   background-color: #f2bb23;
   color: #fff;
@@ -413,7 +413,7 @@ a.boxed-btn {
 }
 
 a.bordered-btn {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   display: inline-block;
   color: #fff;
   border: 2px solid #f2bb23;
@@ -516,7 +516,7 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
 
 ----------------------------------------------------------------------------- */
 ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-link {
-  color: #000000;
+  color: #26292b;
 }
 
 .top-header-area {
@@ -608,7 +608,7 @@ nav.main-menu > ul li:last-child {
 
 .site-logo {
   float: left;
-  max-width: 100px;
+  max-width: 90px;
   color: white;
   
 }
@@ -1404,9 +1404,9 @@ html, body {
 }
 
 .hero-text p.subtitle {
-  color: #f2bb23;
+  color: #eeedeb;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 7px;
   font-size: 15px;
 }
