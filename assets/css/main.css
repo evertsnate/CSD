@@ -443,6 +443,7 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
   font-size: 40px;
   position: relative;
   padding-bottom: 15px;
+  left: 10px;
 }
 
 .section-title h3:after {
