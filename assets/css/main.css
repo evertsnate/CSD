@@ -1905,7 +1905,7 @@ span.comment-date {
 
 ----------------------------------------------------------------------------- */
 .cart-banner {
-  background-color: #f5f5f5;
+  background-color: #eeeded;
 }
 
 .cart-banner .image-column {
@@ -1930,7 +1930,7 @@ span.comment-date {
   height: 94px;
   margin: 0 auto;
   margin-top: 8px;
-  text-align: center;
+  text-align: left;
   border-radius: 50%;
   background-color: #f2bb23;
 }
@@ -2056,7 +2056,7 @@ p.testimonial-body {
 ----------------------------------------------------------------------------- */
 a.video-play-btn {
   position: absolute;
-  background-color: #f2bb23;
+  background-color: #d02a40;
   color: #051922;
   width: 90px;
   height: 90px;
