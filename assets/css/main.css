@@ -444,7 +444,7 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
-  position: absolute;
+  position: relative;
   padding-bottom: 20px;
 }
 
