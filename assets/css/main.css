@@ -443,19 +443,7 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
   font-size: 40px;
   position: relative;
   padding-bottom: 15px;
-  left: 10px;
-}
-
-.section-title h3:after {
-  position: absolute;
-  content: '';
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  width: 50px;
-  height: 2px;
-  background-color: #ffffff;
-  margin: 0 auto;
+  Position: left;
 }
 
 .section-title p {
