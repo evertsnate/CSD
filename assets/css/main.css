@@ -1194,7 +1194,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #051922;
-  color: #d02a40;
+  color: #eeedeb;
 }
 
 div.owl-controls, .owl-controls div {
