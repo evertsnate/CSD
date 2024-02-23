@@ -1049,9 +1049,9 @@ ul.sub-menu li:hover a {
   color: #d02a40;
 }
 
-a.bordered-btn-special:hover {
-  background-color: #26292b;
-  color: #F5ED93;
+a.boxed-btn-special:hover {
+  background-color: #F5ED93;
+  color: #26292b;
 }
 
 
