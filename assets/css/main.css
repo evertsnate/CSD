@@ -1049,6 +1049,12 @@ ul.sub-menu li:hover a {
   color: #d02a40;
 }
 
+a.bordered-btn-special:hover {
+  background-color: #F5ED93;
+  color: #26292b;
+}
+
+
 .single-tof-box {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
