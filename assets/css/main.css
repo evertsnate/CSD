@@ -488,9 +488,9 @@ a.boxed-btn, a.bordered-btn, a.cart-btn, a.boxed-btn-special {
 }
 
 .breadcrumb-text p {
-  color: #f2bb23;
+  color: #d02a40;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: none;
   /* letter-spacing: 7px; */
 }
 
