@@ -98,6 +98,7 @@ h2, .h2 {
   h2, .h2 {
     font-size: 2rem;
     line-height: 2.25rem;
+    color: #32a5db;
   }
 }
 
@@ -155,6 +156,7 @@ p:last-child {
   margin: 0;
 }
 
+
 /* -----------------------------------------------------------------------------
 
 # All Common Styles
@@ -202,7 +204,7 @@ p:last-child {
   position: absolute;
   top: calc(50% - 3vmax);
   left: calc(50% - 3vmax);
-  border-left: 3px solid #f2bb23;
+  border-left: 3px solid #f23b23;
   border-radius: 100%;
   -webkit-animation: spinLeft 800ms linear infinite;
   animation: spinLeft 800ms linear infinite;
@@ -523,6 +525,28 @@ a.boxed-btn, a.bordered-btn, a.cart-btn, a.boxed-btn-special {
   z-index: -1;
   opacity: 0.8;
 }
+/* -----------------------------------------------------------------------------
+
+# New Product Sections
+
+----------------------------------------------------------------------------- */
+
+.scrollable-card-container {
+  max-height: 400px; /* Set the maximum height of the container */
+  overflow-y: auto; /* Enable vertical scrollbar if needed */
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping of items */
+  justify-content: flex-start; /* Align items to the start of the container */
+}
+
+.single-product-item {
+  flex: 0 0 auto; /* Prevent items from growing or shrinking */
+  margin-right: 20px; /* Adjust margin between items */
+}
+
+.single-product-item:last-child {
+  margin-right: 0; /* Remove margin for the last item */
+}
 
 /* -----------------------------------------------------------------------------
 
@@ -579,8 +603,8 @@ nav.main-menu ul > li {
 
 nav.main-menu ul ul.sub-menu {
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.651);
-  width: auto;
+  background-color: rgb(255, 255, 255);
+  width: 150px;
   padding: 15px 15px;
   margin: 0;
   left: 0;
@@ -590,9 +614,9 @@ nav.main-menu ul ul.sub-menu {
   -o-transition: 0.3s;
   transition: 0.3s;
   opacity: 0;
-  visibility: hidden;
-  -webkit-box-shadow: 0 0 20px #555555;
-  box-shadow: 0 0 20px #555555;
+  /* visibility: hidden; */
+  /* -webkit-box-shadow: 0 0 20px #555555; */
+  /* box-shadow: 0 0 20px #555555; */
 }
 
 nav.main-menu ul ul.sub-menu li {
@@ -1512,7 +1536,7 @@ input[type="submit"] {
 }
 
 .homepage-bg-2 {
-  background-image: url(/DeltaAgitationMuzzle.jpg);
+  background-image: url(/IMG_0053[15453].jpeg);
   height: 600px;
 }
 
@@ -1550,6 +1574,7 @@ input[type="submit"] {
   background-color: #020C0E;
   position: relative;
   z-index: 1;
+  
 }
 
 .single-homepage-slider:after {
@@ -1613,6 +1638,13 @@ div.owl-controls, .owl-controls div {
   opacity: 0.75;
 }
 
+.list-box .content a {
+  margin-bottom: 0px;
+  opacity: 0.75;
+  color: #d02a40;
+  font-weight: 400;
+}
+
 .list-box .list-icon i {
   display: block;
   font-size: 24px;
@@ -1632,27 +1664,27 @@ div.owl-controls, .owl-controls div {
 
 ----------------------------------------------------------------------------- */
 .news-bg-1 {
-  background-image: url(../img/latest-news/news-bg-1.jpg);
+  background-image: url(/assets/img/updatedimagesforwebsite/20240304_060213805HEIF_JPG_IMG_1214.JPG);
 }
 
 .news-bg-2 {
-  background-image: url(../img/latest-news/news-bg-2.jpg);
+  background-image: url(/assets/img/updatedimagesforwebsite/IMG_1080_converted.jpg);
 }
 
 .news-bg-3 {
-  background-image: url(../img/latest-news/news-bg-3.jpg);
+  background-image: url();
 }
 
 .news-bg-4 {
-  background-image: url(../img/latest-news/news-bg-4.jpg);
+  background-image: url();
 }
 
 .news-bg-5 {
-  background-image: url(../img/latest-news/news-bg-5.jpg);
+  background-image: url();
 }
 
 .news-bg-6 {
-  background-image: url(../img/latest-news/news-bg-6.jpg);
+  background-image: url();
 }
 
 .latest-news-bg {
@@ -1710,7 +1742,12 @@ p.excerpt {
 }
 
 .single-artcile-bg {
-  background-image: url(../img/latest-news/news-bg-3.jpg);
+  background-image: url(/assets/img/updatedimagesforwebsite/20240304_060213805HEIF_JPG_IMG_1214.JPG);
+  height: 450px;
+}
+
+.single-artcile-bg2 {
+  background-image: url(/assets/img/updatedimagesforwebsite/IMG_1080_converted.jpg);
   height: 450px;
 }
 
@@ -1745,6 +1782,14 @@ p.excerpt {
 }
 
 .single-artcile-bg {
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.single-artcile-bg2 {
   background-size: cover;
   background-position: center;
   background-color: #ddd;
@@ -2335,6 +2380,7 @@ ul.social-link-team li a {
   font-weight: 600;
   position: relative;
   margin-bottom: 10px;
+  color: #26292b;
 }
 
 .contact-form-box h4 i {
@@ -2358,7 +2404,7 @@ ul.social-link-team li a {
   font-size: 40px;
   margin: 0;
   font-weight: 600;
-  padding: 95px 0;
+  padding: 20px 0;
 }
 
 .find-location p i {
