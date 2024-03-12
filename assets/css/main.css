@@ -1672,7 +1672,7 @@ div.owl-controls, .owl-controls div {
 }
 
 .news-bg-3 {
-  background-image: url();
+  background-image: url(/assets/img/updatedimagesforwebsite/Zoe\ 02.jpeg);
 }
 
 .news-bg-4 {
@@ -1751,6 +1751,11 @@ p.excerpt {
   height: 450px;
 }
 
+.single-artcile-bg3 {
+  background-image: url(/assets/img/updatedimagesforwebsite/Zoe\ 02.jpeg);
+  height: 450px;
+}
+
 .pagination-wrap {
   margin-top: 40px;
 }
@@ -1790,6 +1795,14 @@ p.excerpt {
 }
 
 .single-artcile-bg2 {
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.single-artcile-bg3 {
   background-size: cover;
   background-position: center;
   background-color: #ddd;
